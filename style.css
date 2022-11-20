@@ -1,0 +1,384 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+header {
+  height: 500px;
+  background-color: #3400ff;
+}
+
+nav {
+  float: right;
+  margin-right: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.nav-menu-icon {
+  display: none;
+}
+.nav-item {
+  margin-right: 20px;
+  color: #fff;
+}
+
+.nav-item-active {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  color: #5a31fc;
+  font-weight: 900;
+  margin-right: 5px;
+}
+
+.logo {
+  margin: 20px;
+}
+
+.header-text {
+  color: #fff;
+  margin-left: 20px;
+  float: left;
+  margin-top: 50px;
+}
+
+.header-image {
+  float: right;
+}
+
+.companies {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.company-items {
+  text-decoration: none;
+  /* Google */
+  color: #000;
+  font-weight: 600;
+  margin-left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.api-heading {
+  font-weight: 900;
+  margin-left: 90px;
+  margin-top: 100px;
+  font-style: bold;
+}
+
+.cards {
+  margin-left: 90px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.card {
+  width: 20%;
+  height: 300px;
+  background-color: #fff;
+  margin-right: 30px;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.card-active {
+  width: 20%;
+  height: 300px;
+  background-color: transparent;
+  margin-right: 30px;
+  box-shadow: 0px 5px 15px #000;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.card-logo {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.card-head-active {
+  color: #3400ff;
+  margin-left: 30px;
+}
+
+.card-head {
+  margin-left: 30px;
+}
+
+.card-body {
+  color: #000;
+  font-size: small;
+  margin-left: 30px;
+}
+
+.blog-heading {
+  margin-left: 90px;
+}
+
+.blog-cards {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* background-color: #3400ff; */
+  width: 100%;
+  margin-right: 200px;
+
+  align-content: center;
+}
+
+.blog-card {
+  display: flex;
+  background-color: #fff;
+
+  border-radius: 15px;
+  border-top-left-radius: 49px;
+  justify-content: space-between;
+  /* padding-right: 280px; */
+  width: 45%;
+}
+
+.blog-content {
+  /* background-color:green; */
+  align-content: center;
+  width: 90%;
+  /* display: flex; */
+  align-items: center;
+  margin-right: 200px;
+}
+
+.blog-view {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 25px;
+  width: 200px;
+  justify-content: space-between;
+  position: absolute;
+  /* background-color: red; */
+}
+
+.blog-bottom {
+  background-color: #fff;
+  height: 65px;
+  width: 65px;
+  border-radius: 32.5px;
+  display: flex;
+}
+
+.faq-section {
+  display: flex;
+  margin-top: 60px;
+  padding-left: 90px;
+  background-color: #e9edff;
+  justify-content: space-between;
+}
+div h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+div > h4 {
+  font-size: small;
+  /* background-color: red; */
+  font-weight: normal;
+}
+div > h4 ~ h4 {
+  font-weight: bold;
+  /* background-color: #3400ff; */
+}
+button {
+  background-color: #5a31fc;
+  color: #f0eeff;
+  border-radius: 4px;
+  border-color: transparent;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.download-section {
+  display: flex;
+  align-items: center;
+  margin-top: 90px;
+  justify-content: space-between;
+  margin-left: 90px;
+  margin-right: 100px;
+}
+
+input {
+  background-color: #e9edff;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 500px;
+  border-color: transparent;
+  border-radius: 50px;
+  padding-left: 30px;
+}
+div > form > button {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  position: absolute;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 50px;
+  right: 112px;
+  margin-top: 3px;
+}
+
+.footer-section {
+  background-color: #4719fd;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 90px;
+  padding-right: 60px;
+  padding-left: 80px;
+  padding-bottom: 90px;
+  margin-top: 80px;
+  align-items: center;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+  width: 400px;
+}
+.footer-items {
+  color: #fff;
+  font-size: small;
+}
+.vertical-line {
+  color: #fff;
+}
+.logos-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  /* background-color: green; */
+}
+.footer_right {
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 655px) {
+  .nav-menu-icon {
+    display: block;
+    margin: auto;
+    color: #fff;
+  }
+  .nav-item {
+    display: none;
+  }
+  .nav-item-active {
+    display: none;
+  }
+  .header-text > h2 {
+    font-size: 20px;
+  }
+  .header-text > p {
+    font-size: 10px;
+  }
+  .header-image {
+    height: 400px;
+    width: 400px;
+    float: none;
+  }
+  .companies {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    gap: 15px;
+  }
+  .api-heading {
+    font-size: 20px;
+  }
+  /* .cards {
+    display: flex;
+    flex-direction: column;
+  } */
+  .blog-heading {
+    font-size: 10px;
+  }
+  .faq-image {
+    display: none;
+  }
+  .faq-content {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 100px) {
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .blog-card {
+    width: 70%;
+  }
+  .image-blog {
+    width: 50%;
+    height: 100%;
+  }
+  .blog-content {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 500px) {
+  .faq-image {
+    width: 500px;
+  }
+  .download-content > h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 893px) {
+  .download-section {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    width: auto;
+    margin: auto;
+  }
+  div > form > button {
+    margin: auto;
+    padding: auto;
+    position: absolute;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 1000px) {
+  .card-active {
+    width: 70%;
+    /* background-color: red; */
+  }
+  .card {
+    width: 70%;
+    margin-top: 15px;
+    /* background-color: green; */
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+  }
+}
